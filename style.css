@@ -1,0 +1,69 @@
+header img {
+  height: 80px;
+  margin-left: 40px;
+}
+body {
+  height: 125vh;
+  background-image: url("Real Madrid.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  margin-top: 80px;
+  padding: 30px;
+}
+
+main {
+  color: rgb(197, 190, 190);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  background-color: rgb(12, 6, 100);
+  position: fixed;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: rgb(216, 202, 13);
+  text-decoration: none;
+}
+.logo{
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#RMA{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(216, 202, 13);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+audio{
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 25px;
+}
+.img{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+iframe {
+  width: 100%; 
+  height: 100vh; 
+}
